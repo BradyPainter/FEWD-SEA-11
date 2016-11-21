@@ -1,0 +1,122 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#introduction {
+  background-image: url("file:///Users/bradenpainter/Desktop/FEWD/FEWD-SEA-11/Week_02_Styling/Assignment/starter_code/images/header_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 550px;
+}
+nav {
+  padding-left: 10%; 
+  padding-top: 1%;
+}
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+.tagline {
+  text-align: center;
+  margin-top: 15%;
+}
+.title {
+  font-weight: bolder;
+  margin-left: 4%
+  margin-top: 1%;
+}
+.title1 {
+  color: #00004d;
+  font-size: 20px;
+}
+.button1 {
+  background-color: yellow;
+  color: #00004d;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px;
+  margin-left: 43%;
+  border: none;
+  border-radius: 5px;
+}
+.button2 {
+  background-color: #00004d;
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 43%;
+  margin-top: 3%;
+  border-radius: 5px;
+  border: none;
+}
+
+.benefits {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 250px;
+  padding-left: 6%;
+  padding-top: 1%;
+}
+.benefits-p {
+  padding-right: 50%;
+  font-size: 13px;
+}
+ul {
+  font-size: 13px;
+  padding-right: 50%
+}
+.testimony {
+ background-image: url(file:///Users/bradenpainter/Desktop/FEWD/FEWD-SEA-11/Week_02_Styling/Assignment/starter_code/images/testimonial_bg.jpg);
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 200px;
+ color: white;
+ padding-top: 1%;
+}
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.author {
+  text-align: center;
+}
+.sign-up {
+  background-color: #f9e42e;
+  width: 100%;
+  height: 75px;
+}
+#footer {
+background-color: #1a1a1a;
+width: 100%;
+height: 200px;
+color: white;
+padding-top: 1%;
+}
+.title2 {
+  color: yellow;
+  font-size: 24px;
+  margin-left: 47%;
+}
+.fb-icon {
+  margin-left: 47%;
+  padding-right: 1%;
+}
+.twiter-icon {
+  margin-left: 47%;
+  padding-left: 1%;
+}
+.copyright {
+text-align: center;
+};
