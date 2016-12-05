@@ -1,0 +1,52 @@
+.bkgd-img {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/spiritedawaydragon.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+.content {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.nav-footer {
+	background: rgba(5, 5, 5, 0.5);
+	padding: 1%;
+	width: 100%;
+}
+/*
+I cannot figure how to make the movie title responsive. 
+*/
+.movie-title2 h1 {
+	font-family: 'EB Garamond', serif;
+	font-size: 80px;
+	color: white;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: -5px;
+}
+.movie-title h1 {
+	color: red;
+	text-decoration: underline;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: -83px;
+	font-family: 'EB Garamond', serif;
+}
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+}
+li {
+	font-family: 'EB Garamond', serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
