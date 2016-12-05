@@ -17,6 +17,8 @@
 }
 /*
 I cannot figure how to make the movie title responsive. 
+Also, to call nth child in my code did not work. "::first-letter" 
+or ":nth-child()". I am not sure what went woring with my code.
 */
 .movie-title2 h1 {
 	font-family: 'EB Garamond', serif;
