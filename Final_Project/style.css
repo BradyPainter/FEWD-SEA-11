@@ -1,0 +1,157 @@
+.container {
+	margin: auto 0;
+	padding: 0;
+}
+.clearfix {
+	visibility: hidden;
+	clear: both;
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	background-color: black;
+	opacity: 0.85;
+} 
+.inner-header {
+	font-family: monospace;
+}
+.header h1, 
+.header nav a {
+	line-height: 130px;
+	margin: 25px;
+	text-decoration: none;
+}
+.header h1 {
+	color: white;
+	float: left;
+	letter-spacing: 3px;
+}
+.header a {
+	color: white;
+	float: right;
+	display: ;
+}
+.seattle-skyline {
+	width: 100%;
+	height: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.portfolio {
+	background-size: 100%;
+	background-color: black; 
+	height: auto;
+	margin-top: -25px;
+	font-family: monospace;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.portfolio h1 {
+	padding: 25px;
+	color: white;
+}
+.thumbnail {
+	float: left;
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+.thumbnail p {
+	color: white;
+}
+.thumbnail img {
+	height: 150px;
+	width: 150px;
+}
+.about {
+	background-size: 100%;
+	background-color: white;
+	height: auto;
+	margin-top: -25px;
+	font-family: monospace;
+	text-align: center;
+}
+.description {
+	float: left;
+	width: 50%;
+}
+
+.about h1 {
+	padding: 25px;
+}
+.about p {
+	width: 50%;
+	margin-left: 100px;
+}
+.bio-pic {
+	float: right;
+	width: 50%;
+	padding-bottom: 50px;
+	line-height: 
+}
+.about img {
+	border-radius: 50px;
+	height: 200px;
+	width: 200px;
+}
+.resume {
+	background-color: black;
+	height: auto;
+	margin-top: -25px;
+	font-family: monospace;
+	text-align: center;
+}
+.resume h1 {
+	padding: 25px;
+	color: white;
+}
+.resume-pdf {
+	padding-bottom: 50px;
+}
+.contact {
+	background-color: white;
+	height: 300px;
+	margin-top: -25px;
+	font-family: monospace;
+	text-align: center;
+}
+.contact h1 {
+	padding: 25px;
+}
+.social-media {
+	background-color: black;
+	height: auto;
+	text-align: center;
+}
+
+.social-media div {
+	display: inline-block;
+}
+
+.social-media img {
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+}
+footer {
+	text-align: center;
+	font-family: monospace;
+	margin: 10px;
+}
+footer a {
+	text-decoration: none;
+}
+footer ul {
+	display: inline-flex;
+	margin-left: -25px;
+}
+footer li {
+	list-style-type: none;
+	margin-left: 10px;
+}
