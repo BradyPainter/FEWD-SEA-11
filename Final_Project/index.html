@@ -11,12 +11,12 @@
 
 		<div class="header">
 			<div class="inner-header">
-			<h1>Brady Painter</h1>
+			<h1><a href="#skyline">Brady Painter</a></h1>
 				<nav>
-					<a href="#">Contact</a>
-					<a href="#">Resume</a>
-					<a href="#">About</a>
-					<a href="#">Portfolio</a>
+					<a href="#contact">Contact</a>
+					<a href="#resume">Resume</a>
+					<a href="#about">About</a>
+					<a href="#portfolio">Portfolio</a>
 				</nav>
 			</div>
 			<div class="clearfix"></div>
@@ -24,9 +24,9 @@
 
 		
 
-		<div><img class="seattle-skyline" src="Seattle-skyline.jpg"></div>
+		<div id="skyline"><img class="seattle-skyline" src="Seattle-skyline.jpg"></div>
 
-		<div class="portfolio">
+		<div id="portfolio" class="portfolio">
 			<h1>Portfolio</h1>
 			<a href="http://codepen.io/painteerr/full/WxrjJe/">
 				<div class="thumbnail">
@@ -34,7 +34,7 @@
 					<p>Tribute Page</p>
 				</div>
 			</a>
-			<a href="#">
+			<a href="http://codepen.io/painteerr/full/GNXLQp/">
 				<div class="thumbnail">
 					<img src="RSP-pic.png">
 					<p>Rock, Scissor & Paper game</p>
@@ -67,7 +67,7 @@
 			<div class="clearfix"></div>
 		</div>
 
-		<div class="about">
+		<div id="about" class="about">
 			<h1>About Me</h1>
 			<div class="description">
 				<p>My name is Brady, currently living in Seattle. I am taking a front end web development course and working on my skills through General Assembly. In his spare time he loves going out with friends, playing video games, and also have a huge affection for pets.</p>
@@ -76,7 +76,7 @@
 			<div class="clearfix"></div>	
 		</div>
 
-		<div class="resume">
+		<div id="resume" class="resume">
 			<h1>Resume</h1>
 			<div class="resume-pdf">
 				<embed src="resume-painter.pdf" height="600" width="500" alt="pdf"></embed>
@@ -84,27 +84,39 @@
 			<div class="clearfix"></div>	
 		</div>
 
-		<div class="contact">
+		<div id="contact" class="contact">
 			<h1>Contact Me</h1>
-			<div class="contact-form"></div>
+			<form class="contact-form">
+				<div class="half-left">
+					<input type="text" id="input-name" placeholder="Name">
+					<input type="text" id="input-email" placeholder="Email address">
+					<input type="text" id="input-subject" placeholder="Subject">
+				</div>
+				<div class="half-right">
+					<textarea name="Message" type="text" id="input-message" placeholder="Message"></textarea>
+				</div>
+				<form method="post" action="mailto:braden.painter@gmail.com">
+					<input type="submit" value="send" id="input-submit">
+				</form>
+			</form>
 			<div class="clearfix"></div>	
 		</div>
 
-		<div class="social-media">
-			<div class="facebook"><img src="fb-icon.png"></div>
-			<div class="twitter"><img src="twitter-icon.png"></div>
-			<div class="instagram"><img src="ig-icon.png"></div>
-			<div class="github"><img src="git-icon.png"></div>
+		<div id="social-media" class="social-media">
+			<a href= "https://www.facebook.com/brady.painter"><div class="facebook"><img src="fb-icon.png"></div></a>
+			<a href="https://twitter.com/painteerr"><div class="twitter"><img src="twitter-icon.png"></div></a>
+			<a href="https://www.instagram.com/painteerr/"><div class="instagram"><img src="ig-icon.png"></div></a>
+			<a href="https://github.com/BradyPainter"><div class="github"><img src="git-icon.png"></div></a>
 			<div class="clearfix"></div>	
 		</div>
 
 		<footer>
 			<h2>Brady Painter's Portfolio Page</h2>
 			<ul>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 			<p>&copy; 2017 Brady Painter</p>
 		</footer>

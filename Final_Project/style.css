@@ -32,7 +32,16 @@
 .header a {
 	color: white;
 	float: right;
-	display: ;
+	text-decoration: none;
+}
+.header nav a:hover {
+	color: #6666ff;
+}
+.header.header-shrink {
+	height: 65px;
+}
+.header.header-shrink nav a {
+	line-height: 15px;
 }
 .seattle-skyline {
 	width: 100%;
@@ -62,12 +71,18 @@
 	margin-left: 50px;
 	margin-bottom: 100px;
 }
+.portfolio a {
+	margin: 0 auto;
+}
 .thumbnail p {
 	color: white;
 }
 .thumbnail img {
 	height: 150px;
 	width: 150px;
+}
+.portfolio a:hover {
+	color: #6666ff;
 }
 .about {
 	background-size: 100%;
@@ -93,7 +108,7 @@
 	float: right;
 	width: 50%;
 	padding-bottom: 50px;
-	line-height: 
+	margin-top: -30px;
 }
 .about img {
 	border-radius: 50px;
@@ -116,13 +131,62 @@
 }
 .contact {
 	background-color: white;
-	height: 300px;
+	height: 0 auto;
 	margin-top: -25px;
 	font-family: monospace;
 	text-align: center;
 }
 .contact h1 {
 	padding: 25px;
+}
+.contact-form {
+	max-width: 600px;
+	text-align: center;
+	background-color: black;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.contact-form input textarea {
+	border: 0;
+	outline: 0;
+	display: block;
+	width: 100%;
+	font-family: monospace;
+}
+.contact-form textarea {
+	height: 126px;
+	width: 290px;
+	font-family: monospace;
+	border-radius: 5px;
+}
+.half-left {
+	float: left;
+	width: 50%;
+}
+.half-left input {
+	margin-bottom: 27px;
+	width: 275px;
+	margin-left: -15px;
+	font-family: monospace;
+	padding: 5px;
+	border-radius: 5px;
+	border-style: none;
+}
+input[type="submit"] {
+	margin-top: -4px;
+	width: 100%;
+	font-family: monospace;
+	font-weight: bolder;
+	padding: 5px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: white;
+}
+input[type="submit"]:hover {
+	color: white;
+	background-color: black;
+	box-shadow: 0 0 10px white;
 }
 .social-media {
 	background-color: black;
@@ -147,6 +211,9 @@ footer {
 footer a {
 	text-decoration: none;
 }
+footer a:hover {
+	color: black;
+}
 footer ul {
 	display: inline-flex;
 	margin-left: -25px;
@@ -154,4 +221,104 @@ footer ul {
 footer li {
 	list-style-type: none;
 	margin-left: 10px;
+}
+
+@media only screen and (min-width: 321px) {
+	.thumbnail a {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+	.description {
+		float: none;
+		width: 100%;
+	}
+	.bio-pic {
+		float: none;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 100%;
+	}
+	embed {
+		width: 100%;
+	}
+	.contact-form {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 500px) {
+	.thumbnail a {
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+	.description {
+		float: left;
+		width: 50%;
+	}
+	.bio-pic {
+		float: left;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 50%;
+		margin-left: px;
+	}
+	embed {
+		width: 100%;
+	}
+	.contact-form {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 750px) {
+	.thumbnail a {
+		width: 33%;
+		float: left;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+	.description {
+		float: left;
+		width: 33%;
+	}
+	.bio-pic {
+		float: right;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 33%;
+	}
+	embed {
+		width: 100%;
+	}
+	.contact-form {
+		width: 100%;
+	}
+	
+}
+@media only screen and (min-width: 1250px) {
+	.thumbnail a {
+		width: 16%;
+		float: left;
+		margin: 0 auto;
+		margin-bottom: 100px;
+		margin-left: 100px;
+	}
+	.description {
+		float: left;
+		width: 33%;
+	}
+	.bio-pic {
+		float: right;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 33%;
+	}
+	embed {
+		width: 100%;
+	}
+	.contact-form {
+		width: 100%;
+	}
+	
 }
