@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device=width, initial-scale=1" charset="utf-8">
+	<title>Brady Painter Portfolio Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="header">
+			<div class="inner-header">
+			<h1><a href="#skyline">Brady Painter</a></h1>
+				<nav>
+					<a href="#contact">Contact</a>
+					<a href="#resume">Resume</a>
+					<a href="#about">About</a>
+					<a href="#portfolio">Portfolio</a>
+				</nav>
+			</div>
+			<div class="clearfix"></div>
+		</div>	
+
+		
+
+		<div id="skyline"><img class="seattle-skyline" src="Seattle-skyline.jpg"></div>
+
+		<div id="portfolio" class="portfolio">
+			<h1>Portfolio</h1>
+			<a href="http://codepen.io/painteerr/full/WxrjJe/">
+				<div class="thumbnail">
+					<img src="tribute-pic.png">
+					<p>Tribute Page</p>
+				</div>
+			</a>
+			<a href="http://codepen.io/painteerr/full/GNXLQp/">
+				<div class="thumbnail">
+					<img src="RSP-pic.png">
+					<p>Rock, Scissor & Paper game</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="thumbnail">
+					<img src="to-do-pic.png">
+					<p>To-do List</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="thumbnail">
+					<img src="coming-soon-pic.jpg">
+					<p>Coming Soon</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="thumbnail">
+					<img src="coming-soon-pic.jpg">
+					<p>Coming Soon</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="thumbnail">
+					<img src="coming-soon-pic.jpg">
+					<p>Coming Soon</p>
+				</div>
+			</a>
+			<div class="clearfix"></div>
+		</div>
+
+		<div id="about" class="about">
+			<h1>About Me</h1>
+			<div class="description">
+				<p>My name is Brady, currently living in Seattle. I am taking a front end web development course and working on my skills through General Assembly. In his spare time he loves going out with friends, playing video games, and also have a huge affection for pets.</p>
+			</div>
+			<div class="bio-pic"><img src="bio-pic.jpg"></div>
+			<div class="clearfix"></div>	
+		</div>
+
+		<div id="resume" class="resume">
+			<h1>Resume</h1>
+			<div class="resume-pdf">
+				<embed src="resume-painter.pdf" height="600" width="500" alt="pdf"></embed>
+			</div>
+			<div class="clearfix"></div>	
+		</div>
+
+		<div id="contact" class="contact">
+			<h1>Contact Me</h1>
+			<form class="contact-form">
+				<div class="half-left">
+					<input type="text" id="input-name" placeholder="Name">
+					<input type="text" id="input-email" placeholder="Email address">
+					<input type="text" id="input-subject" placeholder="Subject">
+				</div>
+				<div class="half-right">
+					<textarea name="Message" type="text" id="input-message" placeholder="Message"></textarea>
+				</div>
+				<form method="post" action="mailto:braden.painter@gmail.com">
+					<input type="submit" value="send" id="input-submit">
+				</form>
+			</form>
+			<div class="clearfix"></div>	
+		</div>
+
+		<div id="social-media" class="social-media">
+			<a href= "https://www.facebook.com/brady.painter"><div class="facebook"><img src="fb-icon.png"></div></a>
+			<a href="https://twitter.com/painteerr"><div class="twitter"><img src="twitter-icon.png"></div></a>
+			<a href="https://www.instagram.com/painteerr/"><div class="instagram"><img src="ig-icon.png"></div></a>
+			<a href="https://github.com/BradyPainter"><div class="github"><img src="git-icon.png"></div></a>
+			<div class="clearfix"></div>	
+		</div>
+
+		<footer>
+			<h2>Brady Painter's Portfolio Page</h2>
+			<ul>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<p>&copy; 2017 Brady Painter</p>
+		</footer>
+
+	</div>	
+</body>
+<script src="script.js"></script>
+</html>
